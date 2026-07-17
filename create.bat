@@ -24,6 +24,7 @@ for /f "usebackq delims=" %%a in ("%~1") do (
         echo #include ^<bits/stdc++.h^>
         echo using namespace std;
         echo #define int long long
+        echo #define endl '\n'
         echo.
         echo.
         echo #ifndef ONLINE_JUDGE
