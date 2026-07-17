@@ -64,9 +64,9 @@ for /f "usebackq delims=" %%a in ("%~1") do (
         echo     ios::sync_with_stdio^(false^);
         echo     cin.tie^(nullptr^);
         echo.
-        echo     int n = 1;
-        echo     cin ^>^> n;
-        echo     while^(n--^)
+        echo     int test = 1;
+        echo     cin ^>^> test;
+        echo     while^(test--^ )
         echo     {
         echo         sol^(^);
         echo     }
